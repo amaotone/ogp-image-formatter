@@ -1,0 +1,16 @@
+img {
+  max-width: 100%;
+}
+
+.img-container {
+  background-color: #f7f7f7;
+  text-align: center;
+  width: 720px;
+  height: 480px;
+  margin: auto;
+  position: relative;
+}
+
+.img-container > img {
+  max-width: 100%;
+}

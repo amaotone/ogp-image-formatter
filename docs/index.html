@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>OGP Image Formatter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.2/cropper.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            OGP Image Formatter
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="img-container">
+        <img id="preview" src="example.jpg">
+      </div>
+    </section>
+    <section class="section">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <div class="file is-large">
+            <label class="file-label">
+              <input class="file-input" type="file" id="upload">
+              <span class="file-cta">
+                <span class="file-label">
+                  Import
+                </span>
+              </span>
+            </label>
+          </div>
+        </div>
+        <div class="control">
+          <button id="download" class="button is-info is-large">Download</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>OGP Image Formatter</strong> by <a href="https://twitter.com/SakuEji">Amane Suzuki</a>.
+          GitHub repository is <a href="https://github.com/amaotone/ogp-image-formatter">here</a>.
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.2/cropper.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
