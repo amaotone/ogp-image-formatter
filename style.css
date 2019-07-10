@@ -2,15 +2,17 @@ img {
   max-width: 100%;
 }
 
-.img-container {
+#img-container {
   background-color: #f7f7f7;
   text-align: center;
-  width: 600px;
-  height: 400px;
-  margin: auto;
+  width: 1200px;
+  height: 800px;
+  margin: -160px auto;
+  transform: scale(0.6);
   position: relative;
 }
 
-.img-container > img {
+#img-container > img {
   max-width: 100%;
+  overflow: hidden;
 }
